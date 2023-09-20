@@ -15,13 +15,13 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  SplashSerices splashSerices = SplashSerices();
+  SplashServices splashServices = SplashServices();
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    splashSerices.isLogin();
+    splashServices.isLogin();
   }
 
   @override
