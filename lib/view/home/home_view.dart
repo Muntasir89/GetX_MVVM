@@ -55,8 +55,8 @@ class _HomeViewState extends State<HomeView> {
                 homeController.refreshApi();
               });
             }
-            // return Text("Something went wrong");
-            return Center(child: Text(homeController.error.toString()));
+          // return Text("Something went wrong");
+          // return Center(child: Text(homeController.error.toString()));
           case Status.COMPLETED:
             return ListView.builder(
                 itemCount: homeController.userList.value.data!.length,
